@@ -1,0 +1,158 @@
+.logo
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url('logo.jpg');
+    display: block;
+    margin: 0 auto;
+
+}
+
+.header
+{
+    text-align: center;
+    padding: 20px;
+    border: 10px;
+}
+
+nav
+{
+    margin: 10px;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a
+{
+    display: block;
+    color: green;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover
+{
+    background-color: black;
+}
+
+a
+{
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.flex-container
+{
+    display: flex;
+    background-color: wheat;
+    margin: 10px;;
+}
+
+@media screen and (min-width: 960px)
+{
+    .colorChange
+    {
+      background-color: greenyellow;
+      font-family: sans-serif;
+      color: #333333;
+    }
+}
+  
+p
+{
+    font-size: 1em;
+    line-height: 3.5em;
+
+}
+  
+.image-une
+{
+    max-width: 70%;
+    float: center;
+    padding: 10px; 
+}
+  
+.image-deux
+{
+    max-width: 70%;
+    float: center;
+    padding: 10px; 
+}
+
+.image-trois
+{
+    max-width: 100%;
+    float: center;
+    padding: 10px;
+    padding-top: 70px; 
+}
+
+.image-listing
+{
+    max-width: 70%;
+    float: center;
+    padding: 10px; 
+}
+
+.logo-fullpic
+{
+    max-width: 70%;
+    float: center;
+    padding: 10px; 
+}
+
+.background-image
+{
+    width: auto;
+    float: center;
+}
+
+.faire-part
+{
+    font-family: serif;
+    color: green;
+    text-align: center;
+    padding: 50px;
+    padding-left: 30px;
+    float: left;
+}
+
+.container
+{
+    border: 1px solid;
+}
+
+
+.bordureWheat
+{
+    border: 3px solid wheat;
+    padding: 10px;
+}
+
+.bordureGreen
+{
+    border: 3px solid green;
+    padding: 10px;
+}
+
+table, th, td
+{
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+
+.thememariage
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: large;
+}
